@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Planner Dashboard</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="daily" href="daily.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="hero-banner">
+            <div class="overlay-text">life style planner</div>
+        </header>
+
+        <main class="content">
+            <div class="title-section"> 
+                <div class="avatar">❤️ </div>
+                <h1>plan for future</h1>
+                <p class="subtitle">secret planning dairy</p>
+            </div>
+
+            <div class="planner-grid">
+                
+                <div class="box-container" onclick="window.location.href='daily.html'" >
+                    <div class="card daily"></div>
+                    <ul class="links">
+                        <li>📅 Planner</li>
+                        <li>✔️ Habits</li>
+                    </ul>
+                </div>
+
+                <div class="box-container" onclick="window.location.href='planner.html'">
+                    <div class="card planners"></div>
+                    <ul class="links">
+                        <li>🥗 Meal Planner</li>
+                        <li>📍 Travel Planner</li>
+                        <li>🏋️ Workout Planner</li>
+                    </ul>
+                </div>
+
+                <div class="box-container" onclick="window.location.href='personal.html'">
+                    <div class="card personal"><span> ♡</span></div>
+                    <ul class="links">
+                        <li>📽️ Movies & Series</li>
+                        <li>🏛️ Finance</li>
+                        <li>❤️ Health</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <hr class="divider">
+            <div class="footer-link">— Overview</div>
+        </main>
+    </div>
+</body>
+</html>
