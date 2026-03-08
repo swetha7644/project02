@@ -1,0 +1,127 @@
+/* Notion-Style Base */
+body { 
+    font-family: 'Inter', sans-serif;
+    background-color: #00203f; 
+    color: white;  
+    margin: 0;
+ }
+
+.main-container { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 0 40px; 
+}
+
+/* Banners */
+.sub-banner { 
+    height: 180px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.banner-overlay { 
+    color: white; 
+    font-size: 3rem; 
+    font-family: 'Comic Neue', cursive; 
+}
+
+/* Headers & Icons */
+.floating-icon { 
+    font-size: 2.5rem; 
+    margin-top: -30px; 
+    background: #00203f; 
+    width: 50px;
+    border-radius: 8px; 
+    text-align: center; 
+}
+
+.page-subtitle { 
+    border-left: 2px solid #e67e22; 
+    padding-left: 10px; 
+    color: white; 
+    font-size: 0.9rem; 
+}
+
+/* Buttons */
+.action-bar { 
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px 0; 
+    border-bottom: 1px solid orange; 
+    padding-bottom: 15px; 
+}
+
+.btn-secondary { 
+    background: white;
+    border: 1px solid #6293b9;  
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    color: navy; 
+    font-size: 0.8rem; }
+
+/* Layouts */
+.dashboard-layout { 
+    display: grid; 
+    grid-template-columns: 2fr 1fr; 
+    gap: 40px; 
+}
+
+.section-label { 
+    font-size: 0.85rem; 
+    font-weight: 600; 
+    color: orange; 
+    margin: 30px 0 15px 0; 
+}
+
+/* Calendar Elements */
+.calendar-week { 
+    display: grid; 
+    grid-template-columns: repeat(7, 1fr); 
+    border: 1px solid white; 
+}
+
+.day { 
+    border-right: 1px solid #eee; 
+    min-height: 150px; 
+    padding: 10px; 
+    font-size: 0.75rem; 
+    color: #aaa; 
+}
+
+.event { 
+    background: #fef1e6; 
+    border-radius: 4px; 
+    padding: 4px; 
+    color: #0b0101; 
+    margin-top: 5px; 
+    border-left: 3px solid #e67e22; 
+}
+
+/* Finance Cards */
+.finance-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; 
+}
+
+.bank-card { 
+    border: 1px solid white; 
+    padding: 15px; 
+    border-radius: 6px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.bank-card strong { 
+    font-size: 0.9rem;
+ }
+.bank-card span {
+     font-size: 1.1rem; margin-top: 5px;
+ }
+ 
+ @media (max-width: 600px) {
+  h1 { font-size: 2.6rem; }
+  .profile-pic { width: 150px; height: 150px; }
+  header { padding: 80px 20px 60px; }
+}
